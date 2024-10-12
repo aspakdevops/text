@@ -1,0 +1,53 @@
+For worker node failures
+
+Case1: if worker nodes are NOT READY
+
+
+Step1: check kubelet status
+Service kubelet status       OR        systemctl status kubelet
+
+Step2: try to restart kubelet
+
+Service kubelet restart               OR systemctl restart kubelet
+
+
+
+Step3: ###########check logs of kubelet in node01
+
+	- Cat /var/log/syslog | grep kubelet
+	
+	- Tail -f /var/log/syslog | grep kubelet
+	
+	- Journalctl | grep kubelet
+	
+	- Journalctl -u kubelet
+
+
+Step4: ## check below location ##
+
+*******
+---> cat /usr/lib/systemd/system/kubelet.service.d/10-kubeadm.conf 
+		Here : check envronment varibles 
+
+
+
+---> cat /etc/kubernetes/kubelet.conf
+
+
+---> cat /var/lib/kubelet/config.yaml
+
+
+----> cat /var/lib/kubelet/kubeadm-flags.env
+
+
+
+---> 
+ssh node01
+    # maybe any interesting config files?
+
+find / | grep kubeadm
+
+
+
+After that restrat Kubelet
+
