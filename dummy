@@ -1,0 +1,28 @@
+
+
+PAYG+ live went this month Jan 17th
+Actually Project payg+ or flexi sim or red hybrid is an entirely new “subscription style” tariff for Vodafone customers that we are providing and now we are only live with PAYG+ SIMO only
+
+  
+  So why it also called as Red HYbrid: bcz its like combining few feauetrs of PAYM and PAYG and it is not like 100% PAYM,
+
+  
+  Difference between PYAG and PAYG+ ?----->So Payg+ is like upgrade version of PAYG, like here there are no regular top-ups but a monthly subscription fee with Auto renewals
+
+  If i want conclude in a one line PAyg+ :- that we are coming up with a new set of SIMO plans which will allow customers to set up auto renewals and there will not be any credit checks like in paym and there won't be any hazal of customers like need to top up every 30 days in order to continue their subscription. and that will be removed here if the customer chooses to auto renew every 30 days.
+
+  how PAYg+ benefits to customers?
+    there are new plans
+    user can enjoy the benefits of auto renewals here like you know users might have forgot about the bank cards or details, you know, coming back to doing a top up every 30 days and doing it in all. all that will not be here and its not complusory and he can opt out the auto renewal anytime
+      No contract to sign here as well
+
+  
+  customer support? So the now question is here is How we are providing customer support here? I mean we are selling these plans and then we have to provide the the customer support for these plans, right. we all know that we have an Ecare and MVA as well, right? So there is an important catch here that for PAYG plus customers, or any payg plus customer who is trying to log into E care, they will not be allowed to log into Ecare because the way PAYG plus is designed is that all the existing customers who wants to manage their plan or their account, they have to do it via my Vodafone app only. So for any customers who are going to pay G+ to ecare, we will be displaying them a static page which contains instructions how to download the MVA instead of taking them to the the dashboards ecare dashboard page. And from MVA app,to view the plans,to buy an extra and to turn on or off their auto renewals, update their debit/credit card or replace their new card or update their account details like such as address, phone number, all the other personal details, everything needs to be done from MVA only.
+
+    What we did as part of PAYG+: So for PAYG + we have created a dashoboard called as PAYG+ Dashboard in Datadog which helps us in understanding the
+How many orders were placed from PAYG+
+You know if there is any payment issue on related to PAYG+, that we can capture easily now based on the Dashboard Like what are the error meesages and how many transactions/orders are failed due to particular error message or payment error codes like error statistics we can see. So that Payments team or Key stake holders can look into it ASAP to look for anything
+how many PAYG PLUS Transactions per day or week
+How many authenticate or authorized PayG_ orders, and pending customer actions or Incomplte orders list
+if there is any order failed we can easily find the Which TIl call failing why and so, it helps us in our better monitoring And we are getting on and average 30 to 35 orders per day for this PYAG+ SIMO and overall for now around 436 orders we got from the live jan 17th We have created alerts too for this PAYg+ orders to not to miss if there is any issues
+what is the purpose of it payg+ this gives more benifits to see how payg+ working, payments related only for payg=, in future expands paymnets team to see how errors are coming how many and tpta; transcations done by red hybrid paymrnts and sajid te,ma look into dd and idemtify re;ayeted to this payg+ how many orders coming no contracts auto renewel like paym 30 to 35 orders on and average coming
